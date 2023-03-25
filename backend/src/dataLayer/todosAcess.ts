@@ -3,7 +3,7 @@ import * as AWSXRay from 'aws-xray-sdk'
 
 import { DocumentClient } from 'aws-sdk/clients/dynamodb'
 import { TodoItem } from '../models/TodoItem'
-import { TodoUpdate } from './../models/TodoUpdate'
+import { TodoUpdate } from '../models/TodoUpdate'
 import createHttpError from 'http-errors'
 import { createLogger } from '../utils/logger'
 

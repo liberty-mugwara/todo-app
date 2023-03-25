@@ -4,7 +4,7 @@ import { deleteAttachment, getUploadUrl } from './attachmentUtils'
 
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { TodoItem } from '../models/TodoItem'
-import { TodosAccess } from './todosAcess'
+import { TodosAccess } from '../dataLayer/todosAcess'
 import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
 import createError from 'http-errors'
 import { createLogger } from '../utils/logger'

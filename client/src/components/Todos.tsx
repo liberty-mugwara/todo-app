@@ -57,7 +57,7 @@ export class Todos extends React.PureComponent<TodosProps, TodosState> {
         newTodoName: ''
       })
     } catch {
-      alert('Todo creation failed')
+      alert('Todo creation failed, note that todo name must be at least two characters long.')
     }
   }
 

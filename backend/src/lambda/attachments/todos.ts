@@ -1,6 +1,6 @@
 import { S3Event } from 'aws-lambda'
-import { getIdsFromKey } from '../../helpers/attachmentUtils'
-import { updateAttachmentUrl } from '../../helpers/todos'
+import { getIdsFromKey } from '../../businessLogic/attachmentUtils'
+import { updateAttachmentUrl } from '../../businessLogic/todos'
 
 const region = process.env.TODOS_ATTACHMENT_S3_BUCKET_REGION
 const bucketName = process.env.ATTACHMENT_S3_BUCKET

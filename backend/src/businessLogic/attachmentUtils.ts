@@ -1,4 +1,4 @@
-import { S3Client } from './s3'
+import { S3Client } from '../dataLayer/s3'
 import { createLogger } from '../utils/logger'
 
 const logger = createLogger('Attachments')
