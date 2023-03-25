@@ -18,9 +18,12 @@
     "@types/aws-lambda": "^8.10.17",
     "@types/jsonwebtoken": "^8.3.2",
     "@types/node": "^10.14.4",
+    "@types/uuid": "^9.0.1",
     "aws-sdk": "^2.433.0",
     "serverless-aws-documentation": "^1.1.0",
+    "serverless-dynamodb-local": "^0.2.30",
     "serverless-iam-roles-per-function": "^3.2.0-e97ab49",
+    "serverless-offline": "^4.10.6",
     "serverless-plugin-canary-deployments": "^0.4.7",
     "serverless-plugin-tracing": "^2.0.0",
     "serverless-reqvalidator-plugin": "^1.0.3",
@@ -30,6 +33,9 @@
     "webpack": "^4.29.6"
   },
   "author": "Ivan Mushketyk",
+  "scripts": {
+    "build": "tsc"
+  },
   "license": "MIT",
   "volta": {
     "node": "12.22.12"
